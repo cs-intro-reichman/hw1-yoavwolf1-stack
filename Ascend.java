@@ -18,6 +18,6 @@ public class Ascend {
 		int sum = a + b + c;
 		int mid = sum - min - max;
 
-		System.out.println(min + " " + mid + " " + max);
+		System.out.println(max + " " + mid + " " + max);
 	}
 }
