@@ -2,7 +2,7 @@
 public class FVCalc {
 	public static void main(String[] args){
 		
-		// getting the input values from the command line arguments
+		// receiving the input values from the command line arguments
 		int value = Integer.parseInt(args[0]);
 		double rate = Double.parseDouble(args[1]);
 		int years = Integer.parseInt(args[2]);

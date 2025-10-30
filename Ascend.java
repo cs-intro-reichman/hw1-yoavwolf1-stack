@@ -3,7 +3,7 @@
 public class Ascend {
 	public static void main(String[] args) {
 		
-		int num = Integer.parseInt(args[0]); // getting the input number from the command line argument
+		int num = Integer.parseInt(args[0]); // receiving the input number from the command line argument
 		// generating three random integers from 0 to num-1
 		int a = (int)((Math.random())*num);
 		int b = (int)((Math.random())*num);
@@ -21,6 +21,6 @@ public class Ascend {
 		int sum = a + b + c;
 		int mid = sum - min - max;
 
-		System.out.println(max + " " + mid + " " + max); // printing in ascending order
+		System.out.println(min + " " + mid + " " + max); // printing in ascending order
 	}
 }

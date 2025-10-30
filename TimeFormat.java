@@ -2,7 +2,7 @@
 public class TimeFormat {
 	public static void main(String[] args) {
 		
-		// getting the input time from the command line argument, and extracting the hours and minutes digits:
+		// receiving the input time from the command line argument, and extracting the hours and minutes digits:
 		// hours: first two chars, minutes: last two chars (without the colon in between)
 
 		// convert the hours to an integer in order to work with their value and remove the leading zero if exists

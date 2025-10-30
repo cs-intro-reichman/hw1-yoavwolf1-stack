@@ -2,7 +2,7 @@
 public class NumWords {
 	public static void main(String args[]) {
 
-	    int num = Integer.parseInt(args[0]); // getting the input number from the command line argument
+	    int num = Integer.parseInt(args[0]); // receiving the input number from the command line argument
 		// calculating the hundreds, tens, and ones digits
 		int hundreds = num/100;
 		int tens = (num / 10) - (hundreds * 10);
