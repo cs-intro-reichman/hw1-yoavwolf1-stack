@@ -21,6 +21,6 @@ public class Ascend {
 		int sum = a + b + c;
 		int mid = sum - min - max;
 
-		System.out.println(min + " " + mid + " " + max); // printing in ascending order
+		System.out.println(max + " " + mid + " " + max); // printing in ascending order
 	}
 }
