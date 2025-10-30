@@ -11,7 +11,7 @@ public class Bill3 {
 		double split = bill/3.0;
 		split = Math.ceil(split);
 		//printing the result by the required order
-		System.out.println("Dear " + name3 + ", " + name2 + 
-		", and " + name1 + ": pay " + split + " Shekels each.");
+		//System.out.println("Dear " + name3 + ", " + name2 + 
+		//", and " + name1 + ": pay " + split + " Shekels each.");
 	}
 }
